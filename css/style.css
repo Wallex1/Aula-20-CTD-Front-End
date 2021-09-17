@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Manrope:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Manrope', sans-serif;
+}
+
+#logo{
+  display: block;
+  width: 50px;
+  margin: 10px auto;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+
+}
+
+nav{
+  background-color: #4f758b;
+  height: 100%;
+  border: #1f0101 solid 1px;
+}
+
+li{
+  color: white;
+  padding: 25px;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: left;
+}
+
+li:hover{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+} 
+
+section{
+  background-color: #5b127520;
+  padding: 40px;
+}
+
+#banner{
+  width: 100%;
+  border: black solid 1px;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+  
+}
+h2{
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+header{
+  border-bottom: black solid 1px;
+}
